@@ -1,8 +1,62 @@
 <html>
-<head></head>
+<head>
+  <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    body {
+      background-color: #000;
+    }
+    .vd {
+      text-align: center;
+    }
+    .vd video {
+      width: 100%
+    }
+    .title {
+      position: absolute;
+      color: rgba(255, 255, 255, .75);
+      top: 20;
+      text-align: center;
+      width: 100%;
+      line-height: 1.5;
+    }
+    .title .main {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .title .info {
+      font-size: 30px;
+    }
+    .title .info a {
+      font-size: 14px;
+      color: #FFF;
+    }
+    footer {
+      position: absolute;
+      text-align: center;
+      bottom: 10px;
+    }
+  </style>
+</head>
 <body>
-  <video src="./static/show.mp4" controls="controls" width="100%">
-    您的浏览器不支持 video 标签。
-  </video>
+  <div class="vd">
+    <video src="./static/show.mp4" controls="controls" autoplay="autoplay" muted loop="loop">
+      你的浏览器不支持 video 标签。
+    </video>
+  </div>
+  <div class="title">
+    <div class="main">网 络 爬 虫 </div>
+    <div class="info">
+      <p>5月30&nbsp;&nbsp;星期四</p>
+      <p>Jeff&nbsp;&nbsp;北京会议室</p>
+      <p><a href="https://github.com/jeff1992/WebCrawler" target="_blank">戳我先睹为快</a></p>
+    </div>
+  </div>
 </body>
 </html>
