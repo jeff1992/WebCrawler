@@ -45,11 +45,6 @@
   </style>
 </head>
 <body>
-  <div class="vd">
-    <video src="./static/show.mp4" controls="controls" autoplay="autoplay" muted loop="loop">
-      你的浏览器不支持 video 标签。
-    </video>
-  </div>
   <div class="title">
     <div class="main">网 络 爬 虫 </div>
     <div class="info">
@@ -57,6 +52,15 @@
       <p>Jeff&nbsp;&nbsp;北京会议室</p>
       <p><a href="https://github.com/jeff1992/WebCrawler" target="_blank">戳我先睹为快</a></p>
     </div>
+  </div>
+  <div class="vd">
+    <video src="./static/show.mp4" controls="controls" autoplay="autoplay" muted loop="loop"
+      webkit-playsinline="true"
+      x5-video-player-type="h5"
+      x5-video-orientation="h5"
+      x5-video-player-fullscreen="true">
+      你的浏览器不支持 video 标签。
+    </video>
   </div>
 </body>
 </html>
