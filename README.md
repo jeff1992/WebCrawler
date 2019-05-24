@@ -1,11 +1,10 @@
-# WebCrawler 网络爬虫
-## 可视化爬虫
-[观看视频](https://github.com/jeff1992/WebCrawler/blob/master/static/show.mp4)
-## 一、爬虫是什么
-## 二、谁需要爬虫
-## 三、爬虫怎么实现
-### 各大爬虫框架
-- Phthon
-- DotNet
-### 深入爬虫
-## 四、如何反爬虫
+# WebCrawler 网络爬虫（持续更新中）
+[开胃小视频](https://jeff1992.github.io/WebCrawler/static/show.mp4)
+##  FBI WARNING
+  如果你想将该技术用于实战，强烈建议你先阅读[《中华人民共和国网络安全法》](http://www.cac.gov.cn/2016-11/07/c_1119867116.htm)，保证你的老板不被送进监狱
+## 一、爬虫的起源
+## 二、爬虫现状
+## 三、爬虫分类
+## 四、爬虫与黑产
+## 五、爬虫与反爬虫大战
+  爬虫是小公司的命脉，反爬虫是大公司的命脉
