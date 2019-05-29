@@ -19,5 +19,6 @@
 - Ian
 - Olivia
 - Vicent
+- Niya
 - Kang
 - Eric

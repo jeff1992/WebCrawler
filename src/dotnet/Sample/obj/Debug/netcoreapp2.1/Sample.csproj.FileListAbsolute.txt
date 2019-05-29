@@ -1,0 +1,11 @@
+D:\Project\WebCrawler\src\dotnet\Sample\bin\Debug\netcoreapp2.1\Sample.deps.json
+D:\Project\WebCrawler\src\dotnet\Sample\bin\Debug\netcoreapp2.1\Sample.runtimeconfig.json
+D:\Project\WebCrawler\src\dotnet\Sample\bin\Debug\netcoreapp2.1\Sample.runtimeconfig.dev.json
+D:\Project\WebCrawler\src\dotnet\Sample\bin\Debug\netcoreapp2.1\Sample.dll
+D:\Project\WebCrawler\src\dotnet\Sample\bin\Debug\netcoreapp2.1\Sample.pdb
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.csprojAssemblyReference.cache
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.csproj.CoreCompileInputs.cache
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.AssemblyInfoInputs.cache
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.AssemblyInfo.cs
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.dll
+D:\Project\WebCrawler\src\dotnet\Sample\obj\Debug\netcoreapp2.1\Sample.pdb
