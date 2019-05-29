@@ -4,7 +4,7 @@ var cheerio = require('cheerio');
 axios.request({
   url: 'https://news.sina.com.cn/china/'
 }).then(res => {
-  // 通过 load 方法把 HTML 代码转换成一个 jQuery 对象
+  //爬列表
   var $ = cheerio.load(res.data);
   var urls = [];
   $('a').each((i, e) => {
