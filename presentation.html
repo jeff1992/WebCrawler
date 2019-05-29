@@ -28,14 +28,14 @@
     <title>WebCrawler 网络爬虫</title>
     <!-- Styles -->
     
-    <link rel="stylesheet" media="print" href="file://c:\users\jeff\appdata\local\programs\python\python37-32\lib\site-packages\landslide\themes\default\css\print.css">
-    <link rel="stylesheet" media="screen, projection" href="file://c:\users\jeff\appdata\local\programs\python\python37-32\lib\site-packages\landslide\themes\default\css\screen.css">
+    <link rel="stylesheet" media="print" href="file://c:\programdata\anaconda3\lib\site-packages\landslide\themes\default\css\print.css">
+    <link rel="stylesheet" media="screen, projection" href="file://c:\programdata\anaconda3\lib\site-packages\landslide\themes\default\css\screen.css">
     
     
     <!-- /Styles -->
     <!-- Javascripts -->
     
-    <script type="text/javascript" src="file://c:\users\jeff\appdata\local\programs\python\python37-32\lib\site-packages\landslide\themes\default\js\slides.js"></script>
+    <script type="text/javascript" src="file://c:\programdata\anaconda3\lib\site-packages\landslide\themes\default\js\slides.js"></script>
     
     
     
@@ -192,7 +192,7 @@
             <header><h1>3. 基本工作原理</h1></header>
             
             
-            <section><p><img src="file://E:\Project\WebCrawler\./static/workflow.png" width="600" /></p></section>
+            <section><p><img src="file://D:\Project\WebCrawler\./static/workflow.png" width="600" /></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -225,7 +225,7 @@
             <section><blockquote>
 <p>互联网至少50%的流量都来自于爬虫</p>
 </blockquote>
-<p><img src="file://E:\Project\WebCrawler\./static/market.png" width="800" /></p></section>
+<p><img src="file://D:\Project\WebCrawler\./static/market.png" width="800" /></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -293,7 +293,7 @@
         <div class="slide slide-8">
           <div class="inner">
             
-            <header><h2>4.2. 流量统计</h2></header>
+            <header><h2>4.2. 流量分布</h2></header>
             
             
             <section><table>
@@ -607,6 +607,7 @@
 <ul>
 <li><a href="https://www.bazhuayu.com/">八爪鱼</a></li>
 </ul>
+<p>示例：爬一下<a href="http://219.135.157.143:2002/gzwz/gdyj/sjwz/Main.faces?menuId=1&amp;amp;navId=1">广东药监局二类医疗的厂家</a></p>
 <h2>7.2. 爬虫平台少量代码开发</h2>
 <ul>
 <li><a href="https://www.shenjian.io/">神箭手云</a></li>
@@ -643,27 +644,19 @@
         <div class="slide slide-14">
           <div class="inner">
             
-            <header><h1>8. 爬虫相关产业链</h1></header>
+            <header><h1>8. 爬虫与反爬虫大战</h1></header>
             
             
-            <section><h2>代理提供商</h2>
+            <section><blockquote>
+<p>爬虫是小公司的命脉，反爬虫是大公司的命脉</p>
+</blockquote>
+<h2>如何反爬虫</h2>
 <ul>
-<li>海量IP</li>
-</ul>
-<h2>VPN提供商</h2>
-<h2>拨号VPS提供商</h2>
-<ul>
-<li>动态IP，每次拨号都不一样</li>
-</ul>
-<h2>验证码打码平台</h2>
-<ul>
-<li>自动识别</li>
-<li>手动打码</li>
-</ul>
-<h2>短信接码平台</h2>
-<ul>
-<li>猫池</li>
-<li>卡商</li>
+<li>君子协定：robots.txt</li>
+<li>校验User-Agent（用户所使用的浏览器）</li>
+<li>图片验证码</li>
+<li>为请求增加签名</li>
+<li>IP黑名单</li>
 </ul></section>
             
           </div>
@@ -691,19 +684,27 @@
         <div class="slide slide-15">
           <div class="inner">
             
-            <header><h1>9. 爬虫与反爬虫大战</h1></header>
+            <header><h1>9. 爬虫相关产业链</h1></header>
             
             
-            <section><blockquote>
-<p>爬虫是小公司的命脉，反爬虫是大公司的命脉</p>
-</blockquote>
-<h2>如何反爬虫</h2>
+            <section><h2>9.1 代理提供商</h2>
 <ul>
-<li>君子协定：robots.txt</li>
-<li>校验User-Agent（用户所使用的浏览器）</li>
-<li>图片验证码</li>
-<li>为请求增加签名</li>
-<li>IP黑名单</li>
+<li>海量IP</li>
+</ul>
+<h2>9.2 VPN提供商</h2>
+<h2>9.3 拨号VPS提供商</h2>
+<ul>
+<li>动态IP，每次拨号都不一样</li>
+</ul>
+<h2>9.4 验证码打码平台</h2>
+<ul>
+<li>自动识别</li>
+<li>手动打码</li>
+</ul>
+<h2>9.5 短信接码平台</h2>
+<ul>
+<li>猫池</li>
+<li>卡商</li>
 </ul></section>
             
           </div>
@@ -851,7 +852,7 @@
         </tr>
         
         <tr id="toc-row-8" class="sub">
-          <th><a href="#slide8">4.2. 流量统计</a></th>
+          <th><a href="#slide8">4.2. 流量分布</a></th>
           <td><a href="#slide8">8</a></td>
         </tr>
         
@@ -888,13 +889,13 @@
       
       
       <tr id="toc-row-14">
-        <th><a href="#slide14">8. 爬虫相关产业链</a></th>
+        <th><a href="#slide14">8. 爬虫与反爬虫大战</a></th>
         <td><a href="#slide14">14</a></td>
       </tr>
       
       
       <tr id="toc-row-15">
-        <th><a href="#slide15">9. 爬虫与反爬虫大战</a></th>
+        <th><a href="#slide15">9. 爬虫相关产业链</a></th>
         <td><a href="#slide15">15</a></td>
       </tr>
       
