@@ -129,13 +129,28 @@
 ## 7.1. 爬虫平台配置式开发
 - [八爪鱼](https://www.bazhuayu.com/)
 
-  示例：爬一下[广东药监局二类医疗的厂家](http://219.135.157.143:2002/gzwz/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1)
+    示例：爬一下[广东药监局二类医疗的厂家](http://219.135.157.143:2002/gzwz/gdyj/sjwz/Main.faces?menuId=1&amp;navId=1)
+
 ## 7.2. 爬虫平台少量代码开发
 - [神箭手云](https://www.shenjian.io/)
-## 7.3. 完全自己写代码开发
+
+---
+
+## 7.3. 直接上代码，本地开发
 - 不用任何爬虫框架
-- Python [Scrapy](https://scrapy.org/)
-- DotNet [DotnetSpider](https://github.com/dotnetcore/DotnetSpider/)
+
+    示例：用nodejs爬 [国内新闻](https://news.sina.com.cn/china/)
+
+- 使用爬虫框架
+    
+    Python [Scrapy](https://scrapy.org/)
+
+    DotNet [DotnetSpider](https://github.com/dotnetcore/DotnetSpider/)
+
+---
+### DotnetSpider 框架图
+
+  ![avatar](./static/netspider.jpg)
 
 ---
 
