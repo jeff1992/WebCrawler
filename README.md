@@ -244,7 +244,7 @@
 ## 感谢本次分享会用到的相关技术/资源
 - Landslide
 
-    一个可以通过Markdown生成HTML PPT的Python工具，本PPT就是用这个生成的，而我只是一直在写Markdown。
+    一个可以通过Markdown生成HTML PPT的Python工具，本PPT就是用这个生成的，对于内容型的分享来说是个不错的选择。
 
 - Git Pages
 
