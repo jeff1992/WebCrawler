@@ -71,7 +71,7 @@
             </aside>
             
             <aside class="page_number">
-              1/19
+              1/22
             </aside>
           </footer>
         </div>
@@ -108,7 +108,7 @@
             </aside>
             
             <aside class="page_number">
-              2/19
+              2/22
             </aside>
           </footer>
         </div>
@@ -142,7 +142,7 @@
             </aside>
             
             <aside class="page_number">
-              3/19
+              3/22
             </aside>
           </footer>
         </div>
@@ -178,7 +178,7 @@
             </aside>
             
             <aside class="page_number">
-              4/19
+              4/22
             </aside>
           </footer>
         </div>
@@ -208,7 +208,7 @@
             </aside>
             
             <aside class="page_number">
-              5/19
+              5/22
             </aside>
           </footer>
         </div>
@@ -241,7 +241,7 @@
             </aside>
             
             <aside class="page_number">
-              6/19
+              6/22
             </aside>
           </footer>
         </div>
@@ -282,7 +282,7 @@
             </aside>
             
             <aside class="page_number">
-              7/19
+              7/22
             </aside>
           </footer>
         </div>
@@ -443,7 +443,7 @@
             </aside>
             
             <aside class="page_number">
-              8/19
+              8/22
             </aside>
           </footer>
         </div>
@@ -473,7 +473,7 @@
             </aside>
             
             <aside class="page_number">
-              9/19
+              9/22
             </aside>
           </footer>
         </div>
@@ -516,7 +516,7 @@
             </aside>
             
             <aside class="page_number">
-              10/19
+              10/22
             </aside>
           </footer>
         </div>
@@ -546,7 +546,7 @@
             </aside>
             
             <aside class="page_number">
-              11/19
+              11/22
             </aside>
           </footer>
         </div>
@@ -590,7 +590,7 @@
             </aside>
             
             <aside class="page_number">
-              12/19
+              12/22
             </aside>
           </footer>
         </div>
@@ -630,7 +630,7 @@
             </aside>
             
             <aside class="page_number">
-              13/19
+              13/22
             </aside>
           </footer>
         </div>
@@ -670,7 +670,7 @@
             </aside>
             
             <aside class="page_number">
-              14/19
+              14/22
             </aside>
           </footer>
         </div>
@@ -679,6 +679,132 @@
       <!-- slide source: .\README.md -->
       <div class="slide-wrapper">
         <div class="slide slide-15">
+          <div class="inner">
+            
+            <header><h3>Scrapy 框架</h3></header>
+            
+            
+            <section><p><img alt="avatar" src="file://D:\Project\WebCrawler\./static/scrapy.png" /></p>
+<ul>
+<li>
+<p>引擎(Scrapy):</p>
+<p>用来处理整个系统的数据流, 触发事务(框架核心)</p>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\README.md">.\README.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              15/22
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\README.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-16">
+          <div class="inner">
+            
+            <header><h3>Scrapy 框架</h3></header>
+            
+            
+            <section><ul>
+<li>
+<p>调度器(Scheduler)</p>
+<p>用来接受引擎发过来的请求, 压入队列中, 并在引擎再次请求的时候返回. 可以想像成一个URL（抓取网页的网址或者说是链接）的优先队列, 由它来决定下一个要抓取的网址是什么, 同时去除重复的网址</p>
+</li>
+<li>
+<p>下载器(Downloader)</p>
+<p>用于下载网页内容, 并将网页内容返回给蜘蛛(Scrapy下载器是建立在twisted这个高效的异步模型上的)</p>
+</li>
+<li>
+<p>爬虫(Spiders)</p>
+<p>爬虫是主要干活的, 用于从特定的网页中提取自己需要的信息, 即所谓的实体(Item)。用户也可以从中提取出链接,让Scrapy继续抓取下一个页面</p>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\README.md">.\README.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              16/22
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\README.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-17">
+          <div class="inner">
+            
+            <header><h3>Scrapy 框架</h3></header>
+            
+            
+            <section><ul>
+<li>
+<p>项目管道(Pipeline)</p>
+<p>负责处理爬虫从网页中抽取的实体，主要的功能是持久化实体、验证实体的有效性、清除不需要的信息。当页面被爬虫解析后，将被发送到项目管道，并经过几个特定的次序处理数据。</p>
+</li>
+<li>
+<p>下载器中间件(Downloader Middlewares)</p>
+<p>位于Scrapy引擎和下载器之间的框架，主要是处理Scrapy引擎与下载器之间的请求及响应。</p>
+</li>
+<li>
+<p>爬虫中间件(Spider Middlewares)</p>
+<p>介于Scrapy引擎和爬虫之间的框架，主要工作是处理蜘蛛的响应输入和请求输出。</p>
+</li>
+<li>
+<p>调度中间件(Scheduler Middewares)</p>
+<p>介于Scrapy引擎和调度之间的中间件，从Scrapy引擎发送到调度的请求和响应。</p>
+</li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="source">
+              Source: <a href=".\README.md">.\README.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              17/22
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: .\README.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-18">
           <div class="inner">
             
             <header><h3>DotnetSpider 框架图</h3></header>
@@ -700,7 +826,7 @@
             </aside>
             
             <aside class="page_number">
-              15/19
+              18/22
             </aside>
           </footer>
         </div>
@@ -708,7 +834,7 @@
       
       <!-- slide source: .\README.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-16">
+        <div class="slide slide-19">
           <div class="inner">
             
             <header><h1>8. 爬虫与反爬虫大战</h1></header>
@@ -743,7 +869,7 @@
             </aside>
             
             <aside class="page_number">
-              16/19
+              19/22
             </aside>
           </footer>
         </div>
@@ -751,7 +877,7 @@
       
       <!-- slide source: .\README.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-17">
+        <div class="slide slide-20">
           <div class="inner">
             
             <header><h1>9. 爬虫相关产业链</h1></header>
@@ -791,7 +917,7 @@
             </aside>
             
             <aside class="page_number">
-              17/19
+              20/22
             </aside>
           </footer>
         </div>
@@ -799,7 +925,7 @@
       
       <!-- slide source: .\README.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-18">
+        <div class="slide slide-21">
           <div class="inner">
             
             <header><h1>10. 怎么保护自己的隐私</h1></header>
@@ -826,7 +952,7 @@
             </aside>
             
             <aside class="page_number">
-              18/19
+              21/22
             </aside>
           </footer>
         </div>
@@ -834,7 +960,7 @@
       
       <!-- slide source: .\README.md -->
       <div class="slide-wrapper">
-        <div class="slide slide-19">
+        <div class="slide slide-22">
           <div class="inner">
             
             <header><h1>最后</h1></header>
@@ -866,7 +992,7 @@
             </aside>
             
             <aside class="page_number">
-              19/19
+              22/22
             </aside>
           </footer>
         </div>
@@ -972,26 +1098,44 @@
       
       
       <tr id="toc-row-16">
-        <th><a href="#slide16">8. 爬虫与反爬虫大战</a></th>
+        <th><a href="#slide16">-</a></th>
         <td><a href="#slide16">16</a></td>
       </tr>
       
       
       <tr id="toc-row-17">
-        <th><a href="#slide17">9. 爬虫相关产业链</a></th>
+        <th><a href="#slide17">-</a></th>
         <td><a href="#slide17">17</a></td>
       </tr>
       
       
       <tr id="toc-row-18">
-        <th><a href="#slide18">10. 怎么保护自己的隐私</a></th>
+        <th><a href="#slide18">-</a></th>
         <td><a href="#slide18">18</a></td>
       </tr>
       
       
       <tr id="toc-row-19">
-        <th><a href="#slide19">最后</a></th>
+        <th><a href="#slide19">8. 爬虫与反爬虫大战</a></th>
         <td><a href="#slide19">19</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-20">
+        <th><a href="#slide20">9. 爬虫相关产业链</a></th>
+        <td><a href="#slide20">20</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-21">
+        <th><a href="#slide21">10. 怎么保护自己的隐私</a></th>
+        <td><a href="#slide21">21</a></td>
+      </tr>
+      
+      
+      <tr id="toc-row-22">
+        <th><a href="#slide22">最后</a></th>
+        <td><a href="#slide22">22</a></td>
       </tr>
       
       

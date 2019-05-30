@@ -11,5 +11,4 @@ namespace Sample
             Console.ReadKey();
         }
     }
-    
 }

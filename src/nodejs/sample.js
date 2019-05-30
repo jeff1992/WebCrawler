@@ -22,7 +22,7 @@ axios.request({
       var title = $('h1.main-title').text();
       var date = $('div.date-source span.date').text();
       var from = $('div.date-source a.source').text()
-      console.log(title, date, from);
+      console.log(title, date, from, url);
     })
   })
 })
